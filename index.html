@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <style>
+        @media (min-width: 576px) {
+            html {
+                font-size: 18px;
+            }
+        }
+        
+        @media (min-width: 1200px) {
+            html {
+                font-size: 20px;
+            }
+        }
+        
+        body {
+            /* From Medium: */
+            letter-spacing: -.003em;
+            line-height: 1.58;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        .container {
+            /* From Medium */
+            max-width: 740px;
+        }
+    </style>
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/cf2f9ce4a3.js"></script>
+
+    <style>
+        .fisco-site-menu-bar-2017 {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+            opacity: .8;
+        }
+        
+        .fisco-site-menu-bar-2017 p {
+            margin-bottom: 0;
+        }
+        
+        .fisco-site-menu-bar-2017>.site-name {
+            font-size: 1.4rem;
+            font-weight: 300;
+        }
+        
+        .fisco-site-menu-bar-2017>.iconbar {
+            display: flex;
+            justify-content: space-between;
+            flex: 1;
+            /* font-size: 1.1rem; */
+        }
+        
+        .fisco-site-menu-bar-2017 .subiconbar {
+            display: flex;
+        }
+        
+        .fisco-site-menu-bar-2017 .subiconbar>div:not(:last-child) {
+            margin-right: .75rem;
+        }
+        
+        .fisco-site-menu-bar-2017 .iconbar>.subiconbar:not(:last-child) {
+            margin-right: 2.5rem;
+        }
+        
+        @media (min-width: 576px) {
+            .fisco-site-menu-bar-2017 {
+                display: flex;
+                margin-bottom: 3rem;
+            }
+            .fisco-site-menu-bar-2017>.site-name {
+                margin-right: 1rem;
+            }
+            .fisco-site-menu-bar-2017>.iconbar i.fa {
+                margin-top: .4rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <div class="fisco-site-menu-bar-2017">
+            <div class="site-name">
+                <p>
+                    David&nbsp;Fisco
+                </p>
+            </div>
+            <div class="iconbar">
+                <div class="author-specific subiconbar">
+                    <div>
+                        <p>
+                            <a href="https://www.davidfisco.com/about.html" title="David Fisco's biography">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                            </a>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <a href="" data-toggle="modal" data-target="#bitcoinModal" title="David Fisco's Bitcoin address">
+                                <i class="fa fa-btc" aria-hidden="true"></i>
+                            </a>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <a href="https://github.com/fisco" title="David Fisco on GitHub">
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                            </a>
+                        </p>
+                    </div>
+                    <div>
+                        <p><a href="https://docs.google.com/a/davidfisco.com/forms/d/e/1FAIpQLSdJu7rT0xvoAd7YobyuoLWVacAcooQXnGtsPKtJmmr_mtcx2g/viewform" title="Email David Fisco"><i class="
+ fa fa-envelope-open-o " aria-hidden="true "></i>
+</a>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <a href="https://twitter.com/davidfisco" title="Go to David Fisco on Twitter">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="site-specific subiconbar">
+                    <div>
+                        <p>
+                            <a href="https://www.davidfisco.com/" title="Go to homepage">
+                                <i class="fa fa-home" aria-hidden="true"></i>
+                            </a>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <a href="" data-toggle="modal" data-target="#searchDavidFiscoDialog" title="Search DavidFisco.com">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                        </p>
+                        </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="d-flex flex-column flex-md-row mt-2 mb-4" style="opacity: .7;">
+            <div class="font-weight-light mr-3" style="font-size: 1.4rem; opacity: 1;">
+                David&nbsp;Fisco
+                <!-- <img src="./david_fisco_signature_75px.png" /> -->
+            </div>
+            <div class="d-flex align-items-center justify-content-between" style="flex: 1; font-size: 1.2rem;">
+                <div class="d-flex">
+                    <div class="mr-3">
+                        <a href="https://www.davidfisco.com/about.html" title="David Fisco's biography">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="mr-3">
+                        <a href="#" data-toggle="modal" data-target="#bitcoinModal" title="David Fisco's Bitcoin address">
+                            <i class="fa fa-btc" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="mr-3">
+                        <a href="https://github.com/fisco" title="David Fisco on GitHub">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="mr-3">
+                        <a href="https://docs.google.com/a/davidfisco.com/forms/d/e/1FAIpQLSdJu7rT0xvoAd7YobyuoLWVacAcooQXnGtsPKtJmmr_mtcx2g/viewform" title="Email David Fisco">
+                            <i class="
+ fa fa-envelope-open-o " aria-hidden="true "></i>
+                        </a>
+                    </div>
+                    <div class="mr-3">
+                        <a href="https://twitter.com/davidfisco" title="Go to David Fisco on Twitter">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="d-flex flex-row justify-content-end">
+                    <div class="ml-3">
+                        <a href="https://www.davidfisco.com/" title="Go to homepage">
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="ml-3">
+                        <a href="" data-toggle="modal" data-target="#searchDavidFiscoDialog" title="Search DavidFisco.com">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1>Sometimes the Title of a Work Can Be Long...Very Long</h1>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non suscipit lectus. Aliquam erat volutpat. Duis et maximus ante. Suspendisse potenti. In eget leo at est gravida tincidunt. Aenean varius fringilla dolor, ut efficitur nulla viverra eget.
+            Quisque dictum, urna ac lobortis vestibulum, ipsum massa elementum mi, non placerat eros velit eget orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in ligula luctus, venenatis est ut, feugiat lacus.
+        </p>
+
+        <img src="./download.svg" class="img-fluid" alt="Responsive image">
+
+
+        <p>
+            Suspendisse vestibulum ex eget urna pharetra gravida. Curabitur sem quam, hendrerit at egestas eget, lacinia a ante. Nulla hendrerit ligula tellus, sit amet aliquam odio fringilla a. Nunc in enim sed risus mollis laoreet ut ac sem. Integer volutpat risus
+            auctor velit tempus, ut congue dui ullamcorper. Vivamus varius sollicitudin dui nec tempor. Morbi cursus lorem mauris, a suscipit velit commodo sed. Donec fermentum ultricies eros. Fusce vitae aliquet nisi, ut vulputate risus. Vivamus in elit
+            nec augue tempor lobortis. Suspendisse felis diam, gravida id arcu id, vehicula interdum quam.
+        </p>
+
+        <p>
+            Cras ac dictum elit, ut tincidunt nunc. Curabitur ac arcu et ipsum eleifend posuere a nec est. Praesent at magna at dolor condimentum viverra id vel massa. Proin ut varius neque, eget aliquam mauris. Vestibulum mattis sodales diam, sed euismod erat pellentesque
+            a. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer quis ante vel felis placerat sollicitudin. Vestibulum quis ex ipsum. Donec quis enim nibh. In sed nisi sed massa vulputate tempus rhoncus a lacus. Morbi lobortis facilisis
+            lorem sollicitudin fermentum. Donec ut ligula malesuada, blandit leo a, pretium turpis. Nam ac eros a nulla rhoncus rhoncus nec quis erat. Aliquam pulvinar, dolor sed sagittis finibus, diam ipsum maximus enim, nec facilisis est nisi eget orci.
+            Phasellus vitae dolor quis sem tempor gravida et non metus. Maecenas lacinia nulla ut metus vulputate pellentesque.
+        </p>
+        <img src="./download200.svg" class="float-right" alt="...">
+        <p>
+            Integer sem est, accumsan eget felis venenatis, ullamcorper tincidunt urna. Aenean at diam non risus egestas tincidunt. Quisque tincidunt lacus sed nisl sodales consectetur. Donec rutrum, augue ut lacinia malesuada, nulla erat malesuada ipsum, vel laoreet
+            turpis dui sed eros. Vivamus ac enim ut massa cursus vestibulum id blandit nisi. Cras metus arcu, commodo id nunc non, faucibus lacinia ligula. Nulla dolor nisl, vehicula id tristique id, porttitor in nulla. Integer quis ligula tempor, efficitur
+            erat sit amet, lacinia massa. Vestibulum laoreet euismod dolor, nec posuere tellus ultrices a. Sed et mi malesuada, malesuada metus vel, aliquet nulla. Morbi convallis hendrerit ligula eu bibendum. Cras viverra odio vel eros egestas, ac vehicula
+            urna dapibus.
+        </p>
+
+        <pre><code>let a = 100;
+console.log(a);</code>
+</pre>
+
+        <p>
+            Nunc dignissim hendrerit laoreet. Suspendisse dignissim, eros vitae molestie maximus, nibh justo faucibus mi, vel mattis quam ligula sit amet felis. Fusce volutpat nisl quam, a tincidunt elit egestas nec. Morbi aliquam est ut augue vehicula, in dapibus
+            lectus viverra. Nulla facilisi. Etiam molestie justo ut erat semper sollicitudin. Suspendisse vel nulla nec dui pulvinar dictum ut sed nunc. Etiam tortor lorem, iaculis a consectetur vitae, porttitor vitae ex. Donec id finibus turpis, sit
+            amet condimentum tellus.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non suscipit lectus. Aliquam erat volutpat. Duis et maximus ante. Suspendisse potenti. In eget leo at est gravida tincidunt. Aenean varius fringilla dolor, ut efficitur nulla viverra eget.
+            Quisque dictum, urna ac lobortis vestibulum, ipsum massa elementum mi, non placerat eros velit eget orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in ligula luctus, venenatis est ut, feugiat lacus.
+        </p>
+
+        <p>
+            Suspendisse vestibulum ex eget urna pharetra gravida. Curabitur sem quam, hendrerit at egestas eget, lacinia a ante. Nulla hendrerit ligula tellus, sit amet aliquam odio fringilla a. Nunc in enim sed risus mollis laoreet ut ac sem. Integer volutpat risus
+            auctor velit tempus, ut congue dui ullamcorper. Vivamus varius sollicitudin dui nec tempor. Morbi cursus lorem mauris, a suscipit velit commodo sed. Donec fermentum ultricies eros. Fusce vitae aliquet nisi, ut vulputate risus. Vivamus in elit
+            nec augue tempor lobortis. Suspendisse felis diam, gravida id arcu id, vehicula interdum quam.
+        </p>
+
+        <p>
+            Cras ac dictum elit, ut tincidunt nunc. Curabitur ac arcu et ipsum eleifend posuere a nec est. Praesent at magna at dolor condimentum viverra id vel massa. Proin ut varius neque, eget aliquam mauris. Vestibulum mattis sodales diam, sed euismod erat pellentesque
+            a. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer quis ante vel felis placerat sollicitudin. Vestibulum quis ex ipsum. Donec quis enim nibh. In sed nisi sed massa vulputate tempus rhoncus a lacus. Morbi lobortis facilisis
+            lorem sollicitudin fermentum. Donec ut ligula malesuada, blandit leo a, pretium turpis. Nam ac eros a nulla rhoncus rhoncus nec quis erat. Aliquam pulvinar, dolor sed sagittis finibus, diam ipsum maximus enim, nec facilisis est nisi eget orci.
+            Phasellus vitae dolor quis sem tempor gravida et non metus. Maecenas lacinia nulla ut metus vulputate pellentesque.
+        </p>
+
+        <p>
+            Integer sem est, accumsan eget felis venenatis, ullamcorper tincidunt urna. Aenean at diam non risus egestas tincidunt. Quisque tincidunt lacus sed nisl sodales consectetur. Donec rutrum, augue ut lacinia malesuada, nulla erat malesuada ipsum, vel laoreet
+            turpis dui sed eros. Vivamus ac enim ut massa cursus vestibulum id blandit nisi. Cras metus arcu, commodo id nunc non, faucibus lacinia ligula. Nulla dolor nisl, vehicula id tristique id, porttitor in nulla. Integer quis ligula tempor, efficitur
+            erat sit amet, lacinia massa. Vestibulum laoreet euismod dolor, nec posuere tellus ultrices a. Sed et mi malesuada, malesuada metus vel, aliquet nulla. Morbi convallis hendrerit ligula eu bibendum. Cras viverra odio vel eros egestas, ac vehicula
+            urna dapibus.
+        </p>
+
+        <p>
+            Nunc dignissim hendrerit laoreet. Suspendisse dignissim, eros vitae molestie maximus, nibh justo faucibus mi, vel mattis quam ligula sit amet felis. Fusce volutpat nisl quam, a tincidunt elit egestas nec. Morbi aliquam est ut augue vehicula, in dapibus
+            lectus viverra. Nulla facilisi. Etiam molestie justo ut erat semper sollicitudin. Suspendisse vel nulla nec dui pulvinar dictum ut sed nunc. Etiam tortor lorem, iaculis a consectetur vitae, porttitor vitae ex. Donec id finibus turpis, sit
+            amet condimentum tellus.
+        </p>
+
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="bitcoinModal" tabindex="-1" role="dialog" aria-labelledby="bitcoinModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">David Fisco's Bitcoin address</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-center">
+                        <code>1NHpGv7nuiAPRmsPpvCKqHJgJJNmk4Ve5H</code>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="searchDavidFiscoDialog" tabindex="-1" role="dialog" aria-labelledby="searchDavidFiscoDialogLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Search DavidFisco.com</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <script>
+                        (function() {
+                            var cx = '006375221608361844386:pqxwjqe2kmi';
+                            var gcse = document.createElement('script');
+                            gcse.type = 'text/javascript';
+                            gcse.async = true;
+                            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                            var s = document.getElementsByTagName('script')[0];
+                            s.parentNode.insertBefore(gcse, s);
+                        })();
+                    </script>
+                    <gcse:search></gcse:search>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
